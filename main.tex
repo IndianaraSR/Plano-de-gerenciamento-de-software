@@ -5,6 +5,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{placeins}
 \usepackage{longtable}
+\usepackage{multirow}
 
 \sloppy
 
@@ -16,8 +17,8 @@
         Daniela Menezes\inst{1},
         Danilo\inst{1},
         Gabriel Augusto R. dos Reis\inst{1},
-        Giovani\inst{1},
-        Guilherme\inst{1},
+        Giovani Araujo\inst{1},
+        Guilherme Ferreira Faioli Lima\inst{1},
         Indianara Santos Rodrigues\inst{1},
         Luiz\inst{1}
     \end{minipage}
@@ -31,13 +32,6 @@
 
     \maketitle
 
-    \begin{abstract}
-        General overview of work.
-    \end{abstract}
-     
-    \begin{resumo}
-        Síntese geral do trabalho.
-    \end{resumo}
     
     \section{Objetivo do Plano de gerenciamento de riscos}
         Este plano de gerenciamento tem como objetivo identificar todos os riscos associados ao projeto, assim como entendê-los afim de evitá-los e caso eles ocorram saber como corrigir a falha. A identificação e avaliação desses riscos serão realizadas em um brainstorming, além de utilizar a análise SWOT, detalhada na figura \ref{fig:swot}, assim como checklists e as lições aprendidas com projetos anteriores.
@@ -224,7 +218,10 @@
     \section{Riscos técnicos}
         Carlos
     \section{Riscos de negócio}
-        Giovani
+        Riscos de negócio ameaçam a viabilidade do projeto. Podemos observar alguns pontos como mudança da equipe que está relacionada com o trabalho e a falta de orçamento que será colocado sobre o projeto. Outro risco seria um erro de projeção sobre o produto, fazendo com que esse, depois de terminado, fosse notado que os clientes não queriam, ou não precisavam desse produto. 
+        Dentro dos riscos de negócio podemos caracterizar o risco gerencial que seria a perda de apoio da gerencia empresa devido a mudança de foco da mesma. 
+        Sobre os riscos acima citados podemos perceber que o nosso projeto em si tem pouca probabilidade de ser afetado, tendo em mente que o mercado de cinema está em crescente e temos uma equipe consolidada para realizar o projeto.
+        Todavia, os riscos de negócio, por estarem relacionados diretamente com o desenvolvimento do projeto, seus resultados dependem também dos riscos orçamentários e de marketing, estes estão citados a seguir.
     \section{Risco de marketing}
         O marketing é uma grande aliado para empresa, pois ele otimiza o lucro da empresa através da oferta de mercadorias ou serviços de acordo com a necessidade e preferência dos consumidores. 
         O marketing pode ser realizado através de propagandas, pesquisas de mercado, design, entre outras. 
@@ -315,10 +312,6 @@
         \FloatBarrier
     Por fim, vimos que o marketing de vendas de ingressos de cinema é fraco entre as pessoas entrevistadas, e que com certeza o mercado poderia lucrar mais se houvesse mais divulgação. Por mais que a indústria do cinema se garanta e não entre em decadência, por sempre fazer as estreias do filme, o marketing responsável otimizar esse processo adquirindo sempre novos clientes e mantendo os que já tem.
 
-    
-    \section{Risco gerencial}
-        Giovani
-        
     \section{Risco orçamentário}
         Vários riscos podem comprometer o andamento de um projeto, inclusive o orçamentário.
         Atraso no cronograma de desenvolvimento de um site de venda de ingresso pode causar custos maiores que o previsto. O fatores que geram esse prejuízo são, aumento de gastos com a empresa que desenvolve o software e enquanto mais demora a ficar pronto um site de vendas, maior é tempo que essa empresa não vende pela internet, sendo que nos dias de hoje muitos dos consumidores preferem a praticidade e agilidade de comprar pela internet.
@@ -356,9 +349,69 @@
 
 
     \section{Mitigação}
-        Guilherme
+        A mitigação de risco envolve analisar os riscos que cada área da empresa está submetida, e os administrar, auxiliando equipe  de  projeto  no  desenvolvimento  de  uma  estratégia  para  lidar  com  o  risco.
+        \subsection{Plano de mitigação}
+        
+        \begin{center}
+        \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4cm}|}
+        
+            \hline 
+                \multicolumn{1}{|c|}{\textbf{Área}} & 
+                \multicolumn{1}{c|}{\textbf{Atividade}} & 
+                \multicolumn{1}{c|}{\textbf{Risco}} & 
+                \multicolumn{1}{c|}{\textbf{mitigação}} \\ \hline
+            \endfirsthead
+
+            \multicolumn{4}{c}%
+                {{\bfseries \tablename\ \thetable{} -- continuação da última página}} \\
+                \hline 
+                \multicolumn{1}{|c|}{\textbf{Área}} & 
+                \multicolumn{1}{c|}{\textbf{Atividade}} & 
+                \multicolumn{1}{c|}{\textbf{Risco}} & 
+                \multicolumn{1}{c|}{\textbf{mitigação}} \\ \hline
+            \endhead
+
+            \hline 
+                \multicolumn{4}{|r|}{{Continua na próxima página}} \\ \hline
+            \endfoot
+
+            \hline \hline
+            \endlastfoot
+                
+            \hline
+                    
+            Gerência Geral & Definição da duração do planejamento & erro nos tempos de duração das atividades e na quantidade de recursos a ser alocada para cada atividade & Consultar pessoas envolvidas em organizações de vendas de ingressos, montar cenários pessimistas e otimistas\\ \hline
+            
+            \multirow{2}{*}{Finanças} & Definição do preço do ingresso & Ter prejuízo; oferecer um serviço com qualidade abaixo do esperado & Considerar erro no cálculo do orçamento; aumentar esforço em patrocínio/ apoio; trabalhar sempre com determinada porcentagem de folga no orçamento \\ \cline{2-4} 
+            
+            & Definição do orçamento & Errar cálculos e previsão do orçamento; não atualizar dados com possíveis reajustes ou imprevistos. &  Elaborar mais de um orçamento com diversos cenários e atentar à todos os cálculos para que eles esgotem os principais gastos.\\ \hline
+            
+            \multirow{2}{*}{Infraestrutura} & Definição da infraestrutura de redes & quedas repentinas; O site não suportar o número de clientes esperado & Garantir que site esteja hospedado em uma boa empresa de hospedagem de sites e com um bom suporte técnico. \\ \cline{2-4} 
+                     
+            & Definição da segurança de acesso ao site & Vazamento de dados, invasões e fraudes; Site vulnerável a ataques & Investir em segurança da informação ou utilizar uma empresa de hospedagem que ofereça um grau alto de segurança.\\ \hline
+            
+            Marketing & Divulgação do filme e das vendas de ingresso & Desalinhamento na divulgação; não atingir a quantidade de pessoas desejadas; errar canais de comunicação & Criar um plano piloto de divulgação e pedir feedback aos cinemas; consultar pessoas experientes em divulgação de filmes e vendas de ingresso ou mesmo uma consultoria especializada.\\ \hline
+            
+            \multirow{2}{*}{Serviços gerais}& Contato com empresas de cinema e franquias & número de reuniões insuficientes. & Contratar uma empresa experiente e com capacidade de suprir qualquer variação de última hora. \\ \cline{2-4}
+            
+            & Definição do sistema de informação & Perda de informações. & Garantir que o SI é de fácil acesso a todos integrantes da equipe e que toda informação pode ser centralizada nele.\\ \hline
+         
+            \caption{Plano de mitigação}
+            \label{table:Mitigacao}
+        \end{longtable}
+    \end{center}
+
+        
+        
     \section{Monitoramento}
-        ??????????????
+            Monitoramento é uma atividade de rastreamento de projeto com três objetivos:
+             \begin{itemize}
+               \item Avaliar se riscos previstos de fato ocorrem;
+               \item Garantir que passos de aversão de risco definidos para um risco estão sendo aplicados;
+                \item Coletar informação que pode ser usada para análise de risco futura;
+             \end{itemize}
+        Problemas que ocorrem durante um projeto podem ser ligados a mais de um risco. Uma outra tarefa de monitoramento de riscos é alocação de origem.
+
     \section{Gerência de riscos}
         ??????????????
     \section{Conclusão}
