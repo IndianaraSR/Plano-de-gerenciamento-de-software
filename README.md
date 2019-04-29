@@ -26,4 +26,4 @@ Plano de gerenciamento de site de vendas de ingressos de cinema, montado para fi
 <h6> Gerencia de riscos:  </h6>
 <p> * Mitigação(GUILHERME) **COMPLETO**</p>
 <p> * Monitoramento (DANILO) </p>
-<p> * Gerência de riscos (LUIZ) </p>
+<p> * Gerência de riscos (LUIZ) **COMPLETO**</p>
