@@ -16,11 +16,11 @@ Plano de gerenciamento de site de vendas de ingressos de cinema, montado para fi
 <h6>  Diferentes categorias de riscos são consideradas:  </h6>
 <p> * Riscos de projeto (CARLOS) **COMPLETO**</p>
 <p> * Riscos técnicos (CARLOS) </p>
-<p> * Riscos de negócio (GIOVANI) </p>
+<p> * Riscos de negócio (GIOVANI) **COMPLETO**</p>
 
 <h6> Outros tipos de risco:  </h6>
 <p> * Risco de marketing (DANIELA) **COMPLETO**</p>
-<p> * Risco gerencial (GIOVANI) </p>
+<p> * Risco gerencial (GIOVANI) **COMPLETO**</p>
 <p> * Risco orçamentário (DANIELA) **COMPLETO**</p>
 
 <h6> Gerencia de riscos:  </h6>
