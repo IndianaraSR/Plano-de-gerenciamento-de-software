@@ -7,6 +7,9 @@ Plano de gerenciamento de site de vendas de ingressos de cinema, montado para fi
 <p> Diego Zuquim Guimarães Garcia </p> <br>
 <h3> Universidade Federal de Ouro Preto - 2019. </h3> <br>
 
+<h6> Resumo </h6>
+<p> Resumo e abstract **COMPLETO**</p>
+
 <h6> Riscos</h6>
 <p> * Identificar (Indianara) **COMPLETO**</p>
 <p> * Avaliar probabilidade de ocorrência (Indianara) **COMPLETO**</p>
@@ -27,3 +30,6 @@ Plano de gerenciamento de site de vendas de ingressos de cinema, montado para fi
 <p> * Mitigação(GUILHERME) **COMPLETO**</p>
 <p> * Monitoramento (DANILO) **COMPLETO** </p>
 <p> * Gerência de riscos (LUIZ) **COMPLETO**</p>
+
+<h6> Conclusão </h6>
+<p> conclusão **COMPLETO**</p>

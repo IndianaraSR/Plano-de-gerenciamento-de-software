@@ -9,18 +9,18 @@
 
 \sloppy
 
-\title{Plano de gerenciamento de riscos:\\Site de venda de ingressos para cinema}
+\title{Plano de gerenciamento de riscos:\\Site de venda de ingressos}
 
 \author{
     \begin{minipage}{\textwidth}
-        Carlos\inst{1},
+        Carlos Alberto\inst{1},
         Daniela Menezes\inst{1},
-        Danilo\inst{1},
+        Danilo Caldeira\inst{1},
         Gabriel Augusto R. dos Reis\inst{1},
-        Giovani Araujo\inst{1},
+        Giovani Araújo\inst{1},
         Guilherme Ferreira Faioli Lima\inst{1},
         Indianara Santos Rodrigues\inst{1},
-        Luiz\inst{1}
+        Luiz Carlos Silva Júnior\inst{1}
     \end{minipage}
 }
 \address{
@@ -32,15 +32,20 @@
 
     \maketitle
 
-    
-    \section{Objetivo do Plano de gerenciamento de riscos}
+    \begin{resumo}
         Este plano de gerenciamento tem como objetivo identificar todos os riscos associados ao projeto, assim como entendê-los afim de evitá-los e caso eles ocorram saber como corrigir a falha. A identificação e avaliação desses riscos serão realizadas em um brainstorming, além de utilizar a análise SWOT, detalhada na figura \ref{fig:swot}, assim como checklists e as lições aprendidas com projetos anteriores.
-        \begin{figure}[h!]
-                \centering
-                \includegraphics[scale=0.3]{./Images/swot.png}
-                \caption{Gráfico SWOT}
-                \label{fig:swot}
-            \end{figure}
+    \end{resumo}
+
+    \begin{abstract}
+        This management plan aims to identify all risks associated with the project, as well as understand them in order to avoid them and in case they occur to know how to correct the failure. The identification and evaluation of these risks will be carried out in a brainstorming, in addition to using SWOT analysis, detailed in figure \ref{fig:swot}, as well as checklists and lessons learned from previous projects.
+    \end{abstract}
+
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[scale=0.3]{./Images/swot.png}
+        \caption{Gráfico SWOT}
+        \label{fig:swot}
+    \end{figure}
 
     \section{Identificar riscos associados ao projeto}
         \begin{itemize}
@@ -411,6 +416,63 @@
                 \item Coletar informação que pode ser usada para análise de risco futura;
              \end{itemize}
         Problemas que ocorrem durante um projeto podem ser ligados a mais de um risco. Uma outra tarefa de monitoramento de riscos é alocação de origem.
+        
+        
+        \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|l|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{Riscos}} & 
+                    \multicolumn{1}{|c|}{\textbf{Origem}} \\ \hline
+                    Perda de dados & Banco de dados mal estruturado\\ \hline
+                    Layout ruim & Falta de qualidade profissional\\ \hline
+                    Usabilidade confusa & Falta de qualidade profissional \\ \hline
+                    Repostas erradas do Banco de dados & Erros de usuário ou em programação com erros. \\ \hline
+                    Métodos de pagamento & Erros de desenvolvimento, falta de qualidade do serviço, quando é terceirizado  \\ \hline
+                    Mecanismo de busca & Erros de desenvolvimento de qualidade\\ \hline
+                    Portabilidade & Falta de planejamento de requisitos \\ \hline
+                    Número de usuários maior que o planejado & Falta de planejamento de requisitos\\ \hline
+                    Ataque Hacker & Falhas de segurança \\ \hline
+                    Marketing ruim do site & Falta de qualidade profissional \\ \hline
+                    Risco financeiro & Falta de qualidade profissional em relação à administração \\ \hline
+                    Falta de atualização dos cinemas ou sessões & Falta de qualidade do setor administrativo \\ \hline
+                    Preços não competitivos no mercado ou com o próprio cinema localmente & Falta de qualidade profissional em relação à administração/financeiro \\ \hline
+                    Satisfação do cliente & Falta de qualidade profissional  \\ \hline
+                    Inutilização dos cinemas & Falta de qualidade profissional ou análise de mercado \\ \hline
+                \end{tabular}
+            }
+            \caption{Riscos e possíveis causas}
+            \label{table:riscos_e_causas}
+        \end{table}
+        \FloatBarrier
+        
+         \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|l|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{Riscos futuros}} \\ \hline
+                    Falta de suporte do sistema operacional. \\ \hline
+                    Surgimento de tecnologias de grandes empresas como google que façam a mesma tarefa\\ \hline
+                    Em um futuro um pouco distante, poderá haver a inexistência de cinemas, sendo substituídos por serviços como Netfix \\ \hline
+                    Incompatibilidade com Frameworks atuais em uso\\ \hline
+                \end{tabular}
+            }
+             \label{table:riscos_futuros}
+            \caption{Riscos Futuros}
+        \end{table}
+        \FloatBarrier
+        
+        Através do monitoramento de TI é possível resolver alguns problemas enfrentados pela maioria dos gestores de TI, como:
+        \begin{itemize}
+               \item Falhas nos sistemas que imobilizam recursos;
+               \item Dificuldade em medir indicadores de forma qualitativa;
+                \item Sistemas que estão lentos sem que o gestor tenha o conhecimento do motivo;
+                \item Usuários percebem os problemas antes da área de TI;
+                \item Ou ainda, a TI não está alinhada ao negócio da empresa.
+             \end{itemize}
+        
 
     \section{Gerência de riscos}
         Consiste em avaliar e controlar os riscos que afetam o projeto, processo ou produto de software. A melhor maneira de descobrir os riscos é definir, inicialmente, os objetivos e metas do projeto. Os riscos são gerenciados tendo em vista objetivos específicos, podendo afetar apenas o trabalho que falta para alcançá-los. As perguntas importantes são: qual o risco contido no plano? Qual o risco contido no trabalho ainda restante? A incerteza é inerente a todas as suposições do projeto.	 
@@ -425,11 +487,16 @@
 
         A resolução dos riscos inclui a resposta aos eventos disparadores, a execução do Plano de Ação de Riscos, o acompanhamento da execução do plano e as eventuais correções de desvios.
 
-        Uma ferramenta gratuita para o Gerenciamento de Riscos em geral (não apenas de software) é o software TRIMS, desenvolvido pelo BMP Center of Excellence, uma organização patrocinada pela Marinha e pelo Departamento do Comércio NorteAmericanos, bem como pela Universidade de Maryland.
+        Uma ferramenta gratuita para o Gerenciamento de Riscos em geral (não apenas de software) é o software TRIMS, desenvolvido pelo BMP Center of Excellence, uma organização patrocinada pela Marinha e pelo Departamento do Comércio Norte Americanos, bem como pela Universidade de Maryland.
 
     \section{Conclusão}
-        ??????????????
-
+    
+        A partir das mudança decorrentes do cenário empresarial e econômico, as empresas necessitam de ferramentas que  demonstram a real situação socioeconômica da organização e do meio a qual está inserida, se basear em indicadores não garante o desemprenho esperado, qualquer simples erro de estratégia pode ocasionar mudanças bruscas e alterações nos balanços finais.
+        Muitas vezes o investimento em um software está relacionado à busca por melhorias em processos, nem sempre esse é um fator determinante para a empresa se manter no mercado, ela pode continuar usando seus métodos já conhecidos, porém talvez não consiga aumentar os seus resultados com o passar do tempo.
+        Mesmo com melhorias e investimentos, a elaboração e a execução de novos projetos podem apresentar riscos e incertezas, e esses fatores devem ser analisados. A ocorrência de riscos pode ameaçar o plano de projeto, tendo consequências podendo atrasar o cronograma e aumentar custos. Sendo assim, é preciso focar em planejamento.
+        Afim de diminuir os possíveis incidentes é necessário que os riscos sejam identificados, analisados e classificados. Eles podem ser divididos de acordo com seu tipo, garantindo a qualidade do que está sendo produzido.
+        A gestão de risco é uma ferramenta através da qual a empresa necessita, pois ela não retira a necessidade dos indicadores, mas se junta com eles e ao meio empresarial, por mais que os gestores tenham feito um bom plano de execução, sempre existirão riscos em um projeto de software.
+        
     \nocite{*}
     \bibliographystyle{IEEEtran}
     \bibliography{sbc-template}
