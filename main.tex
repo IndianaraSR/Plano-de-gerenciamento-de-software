@@ -5,26 +5,35 @@
 \usepackage[utf8]{inputenc}
 \usepackage{placeins}
 \usepackage{longtable}
+\usepackage{multirow}
 
 \sloppy
 
-\title{Plano de gerenciamento de riscos:\\Site de venda de ingressos para cinema}
+\title{Plano de gerenciamento de riscos:\\Site de venda de ingressos}
 
 \author{
     \begin{minipage}{\textwidth}
-        Carlos\inst{1},
-        Daniela\inst{1},
-        Danilo\inst{1},
-        Gabriel Augusto R. dos Reis\inst{1},
-        Giovani\inst{1},
-        Guilherme\inst{1},
-        Indianara Santos Rodrigues\inst{1},
-        Luiz\inst{1}
+        Carlos Alberto\inst{1},
+        Daniela Menezes\inst{2},
+        Danilo Caldeira\inst{3},
+        Gabriel Augusto R. dos Reis\inst{4},
+        Giovani Araújo\inst{5},
+        Guilherme Ferreira Faioli Lima\inst{6},
+        Indianara Santos Rodrigues\inst{7},
+        Luiz Carlos Silva Júnior\inst{8}
     \end{minipage}
 }
 \address{
     Departamento de Computação e Sistemas\\
-    Universidade Federal de Ouro Preto (UFOP) -- João Monlevade, MG
+    Universidade Federal de Ouro Preto (UFOP) -- João Monlevade, MG\\
+    \\Carlos \inst{1}, 
+    Dani \inst{2},
+    Danilo \inst{3},
+    16.2.8105 \inst{4},
+    Giovani \inst{5},
+    Guilherme \inst{6},
+    India \inst{7},
+    15.1.5881 \inst{8},
 }
 
 \begin{document}
@@ -32,21 +41,22 @@
     \maketitle
 
     \begin{abstract}
-        General overview of work.
+        This management plan aims to identify all risks associated with the project, as well as understand them in order to avoid them and in case they occur to know how to correct the failure. The identification and evaluation of these risks will be carried out in a brainstorming, in addition to using SWOT analysis, detailed in figure \ref{fig:swot}, as well as checklists and lessons learned from previous projects.
     \end{abstract}
-     
+
     \begin{resumo}
-        Síntese geral do trabalho.
+        Este plano de gerenciamento tem como objetivo identificar todos os riscos associados ao projeto, assim como entendê-los afim de evitá-los e caso eles ocorram saber como corrigir a falha. A identificação e avaliação desses riscos serão realizadas em um brainstorming, além de utilizar a análise SWOT, detalhada na figura \ref{fig:swot}, assim como checklists e as lições aprendidas com projetos anteriores.
     \end{resumo}
     
-    \section{Objetivo do Plano de gerenciamento de riscos}
-        Este plano de gerenciamento tem como objetivo identificar todos os riscos associados ao projeto, assim como entendê-los afim de evitá-los e caso eles ocorram saber como corrigir a falha. A identificação e avaliação desses riscos serão realizadas em um brainstorming, além de utilizar a análise SWOT, detalhada na figura \ref{fig:swot}, assim como checklists e as lições aprendidas com projetos anteriores.
-        \begin{figure}[h!]
-                \centering
-                \includegraphics[scale=0.3]{./Images/swot.png}
-                \caption{Gráfico SWOT}
-                \label{fig:swot}
-            \end{figure}
+\tableofcontents
+\newpage
+
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[scale=0.3]{./Images/swot.png}
+        \caption{Gráfico SWOT}
+        \label{fig:swot}
+    \end{figure}
 
     \section{Identificar riscos associados ao projeto}
         \begin{itemize}
@@ -61,7 +71,6 @@
             \item Número de usuários maior que o planejado.
             \item Usuários resistentes ao sistema.
             \item Ataque Hacker.
-%% FALTA FAZER OS RISCOS ABAIXO %%
             \item Marketing ruim do site.
             \item Risco financeiro.
             \item Falta de atualização dos cinemas ou sessões.
@@ -76,7 +85,8 @@
         \begin{itemize}
             \item  Probabilidade:
             \begin{itemize}
-                \item Baixa - A probabilidade de ocorrência do risco pode ser considerada pequena.               \item Média - Existe uma probabilidade razoável de ocorrer o risco.
+                \item Baixa - A probabilidade de ocorrência do risco pode ser considerada pequena.               
+                \item Média - Existe uma probabilidade razoável de ocorrer o risco.
                 \item Alta - O risco é iminente.
             \end{itemize}
             \item Gravidade:
@@ -220,26 +230,284 @@
        \end{itemize}
 
     \section{Riscos de projeto}
-        Carlos
+        Os riscos de projeto estão relacionados com aspectos operacionais, organizacionais e contratuais, que são de responsabilidade do Gerente do Projeto. Em sua descrição está incluído o relacionamento com os fornecedores, restrições contratuais, interfaces externas, requisitos, clientes, organização e limitações de recursos a serem utilizados. Tais riscos ameaçam diretamente o plano do projeto, podendo vir a atrasar o cronograma e também elevar os custos do mesmo, uma vez que o maior risco dos projetos de software é o financeiro pois, a obtenção de recursos orçamentários pode variar de acordo com o mercado financeiro, por exemplo.
     \section{Riscos técnicos}
         Carlos
     \section{Riscos de negócio}
-        Giovani
+        Riscos de negócio ameaçam a viabilidade do projeto. Podemos observar alguns pontos como mudança da equipe que está relacionada com o trabalho e a falta de orçamento que será colocado sobre o projeto. Outro risco seria um erro de projeção sobre o produto, fazendo com que esse, depois de terminado, fosse notado que os clientes não queriam, ou não precisavam desse produto. 
+        Dentro dos riscos de negócio podemos caracterizar o risco gerencial que seria a perda de apoio da gerencia empresa devido a mudança de foco da mesma. 
+        Sobre os riscos acima citados podemos perceber que o nosso projeto em si tem pouca probabilidade de ser afetado, tendo em mente que o mercado de cinema está em crescente e temos uma equipe consolidada para realizar o projeto.
+        Todavia, os riscos de negócio, por estarem relacionados diretamente com o desenvolvimento do projeto, seus resultados dependem também dos riscos orçamentários e de marketing, estes estão citados a seguir.
     \section{Risco de marketing}
-        Daniela
-    \section{Risco gerencial}
-        Giovani
-    \section{Risco orçamentário}
-        Daniela
-    \section{Mitigação}
-        Guilherme
-    \section{Monitoramento}
-        ??????????????
-    \section{Gerência de riscos}
-        ??????????????
-    \section{Conclusão}
-        ??????????????
+        O marketing é uma grande aliado para empresa, pois ele otimiza o lucro da empresa através da oferta de mercadorias ou serviços de acordo com a necessidade e preferência dos consumidores. 
+        O marketing pode ser realizado através de propagandas, pesquisas de mercado, design, entre outras. 
+        Com o objetivo de saber como anda a questão do marketing de vendas de ingressos de cinema, fizemos pesquisa com algumas pessoas para saber se elas têm acesso a publicidade envolvendo a venda de ingressos. Bom, a pesquisa tão teve um resultado bom como podemos ver na tabela\ref{table:freq_divulgacao}.
+        
+      \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{}} & 
+                    \multicolumn{1}{c|}{\textbf{Carlos}} & 
+                    \multicolumn{1}{c|}{\textbf{Danilo}} & 
+                    \multicolumn{1}{c|}{\textbf{Gabriel}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovani}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovanna}} & 
+                    \multicolumn{1}{c|}{\textbf{Guilherme}} & 
+                    \multicolumn{1}{c|}{\textbf{Indianara}} &
+                    \multicolumn{1}{c|}{\textbf{Luiz}} &
+                    \multicolumn{1}{c|}{\textbf{Micael}} &
+                    \multicolumn{1}{c|}{\textbf{Nicole}} &
+                    \multicolumn{1}{c|}{\textbf{Vanessa}} \\ \hline
+                    Frequentemente & & & & & & & & & & & \\ \hline
+                    Raramente & X & X & X & X & X & X & X & X & & X & X \\ \hline
+                    Nunca & & & & & & & & & X & & \\ \hline
+                \end{tabular}
+            }
+            \caption{Com que frequência você vê divulgações de vendas de ingressos?}
+            \label{table:freq_divulgacao}
+        \end{table}
+        \FloatBarrier
+        
+    É preocupante nos dias de hoje que não haja propaganda frequente sobre um determinado produto, visto que há grande procura de informações na internet sobre cinema e venda de ingressos visto na \ref{table:Meio_de_obter_info}, pois é uma maneira ágil e prática para a maiorias das pessoas. Se houvesse mais divulgação talvez não seria tão necessária a busca do cliente nos sites, mas sim já apareceria aquilo que o interessa fazendo que ele compre sempre e não só quando lança algum filme imperdível.
+    
+    \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{}} & 
+                    \multicolumn{1}{c|}{\textbf{Carlos}} & 
+                    \multicolumn{1}{c|}{\textbf{Danilo}} & 
+                    \multicolumn{1}{c|}{\textbf{Gabriel}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovani}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovanna}} & 
+                    \multicolumn{1}{c|}{\textbf{Guilherme}} & 
+                    \multicolumn{1}{c|}{\textbf{Indianara}} &
+                    \multicolumn{1}{c|}{\textbf{Luiz}} &
+                    \multicolumn{1}{c|}{\textbf{Micael}} &
+                    \multicolumn{1}{c|}{\textbf{Nicole}} &
+                    \multicolumn{1}{c|}{\textbf{Vanessa}} \\ \hline
+                    Aplicativos & & & & & & & & & & & \\ \hline
+                    Sites & X & X & X & X & X & X & X & X & X & X & X \\ \hline
+                    Cartazes & & & & & & & & &  & & \\ \hline
+                \end{tabular}
+            }
+            \caption{Na hora de escolher o filme para qual você irá comprar ingressos, qual meio você procura para obter informações?}
+            \label{table:Meio_de_obter_info}
+        \end{table}
+        \FloatBarrier
+    
+    Um ponto positivo é que das pessoas que viram alguma publicidade disseram que essas publicidades tinham a ver com seu gostos.
 
+      \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{}} & 
+                    \multicolumn{1}{c|}{\textbf{Carlos}} & 
+                    \multicolumn{1}{c|}{\textbf{Danilo}} & 
+                    \multicolumn{1}{c|}{\textbf{Gabriel}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovani}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovanna}} & 
+                    \multicolumn{1}{c|}{\textbf{Guilherme}} & 
+                    \multicolumn{1}{c|}{\textbf{Indianara}} &
+                    \multicolumn{1}{c|}{\textbf{Luiz}} &
+                    \multicolumn{1}{c|}{\textbf{Micael}} &
+                    \multicolumn{1}{c|}{\textbf{Nicole}} &
+                    \multicolumn{1}{c|}{\textbf{Vanessa}} \\ \hline
+                    Sim & X & X & X & & & X & X & X & X & X & X \\ \hline
+                    Não & & & & X & X & & & & & & \\ \hline
+                \end{tabular}
+            }
+            \caption{Propagandas de vendas de ingressos geralmente estão relacionadas com seu gosto?}
+            \label{table:Propagandas_ao_gosto}
+        \end{table}
+        \FloatBarrier
+    Por fim, vimos que o marketing de vendas de ingressos de cinema é fraco entre as pessoas entrevistadas, e que com certeza o mercado poderia lucrar mais se houvesse mais divulgação. Por mais que a indústria do cinema se garanta e não entre em decadência, por sempre fazer as estreias do filme, o marketing responsável otimizar esse processo adquirindo sempre novos clientes e mantendo os que já tem.
+
+    \section{Risco orçamentário}
+        Vários riscos podem comprometer o andamento de um projeto, inclusive o orçamentário.
+        Atraso no cronograma de desenvolvimento de um site de venda de ingresso pode causar custos maiores que o previsto. O fatores que geram esse prejuízo são, aumento de gastos com a empresa que desenvolve o software e enquanto mais demora a ficar pronto um site de vendas, maior é tempo que essa empresa não vende pela internet, sendo que nos dias de hoje muitos dos consumidores preferem a praticidade e agilidade de comprar pela internet.
+        Manutenção, novas tecnologias também geram custos para empresa que deve estar sempre preparadas para essas situações.
+        Depois que temos um site de vendas de ingresso de cinema pronto e funcionando corretamente é necessário alavancar as vendas através do marketing, mostrando para o público aquilo que ele quer ver de acordo com suas preferências, visto que em uma pesquisa feita a maioria das pessoas preferem assistir filme no cinema de acordo com a tabela \ref{table:preferencia_local_ver_filme}.
+    
+          \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{}} & 
+                    \multicolumn{1}{c|}{\textbf{Carlos}} & 
+                    \multicolumn{1}{c|}{\textbf{Danilo}} & 
+                    \multicolumn{1}{c|}{\textbf{Gabriel}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovani}} & 
+                    \multicolumn{1}{c|}{\textbf{Giovanna}} & 
+                    \multicolumn{1}{c|}{\textbf{Guilherme}} & 
+                    \multicolumn{1}{c|}{\textbf{Indianara}} &
+                    \multicolumn{1}{c|}{\textbf{Luiz}} &
+                    \multicolumn{1}{c|}{\textbf{Micael}} &
+                    \multicolumn{1}{c|}{\textbf{Nicole}} &
+                    \multicolumn{1}{c|}{\textbf{Vanessa}} \\ \hline
+                    Em casa & & X & & & & & X & & X & X & X \\ \hline
+                    No cinema & & & X & X & X & X & & X & & & \\ \hline
+                \end{tabular}
+            }
+            \caption{Preferência de local para ver filme}
+            \label{table:preferencia_local_ver_filme}
+        \end{table}
+        \FloatBarrier
+    
+    Então o risco orçamentário pode ser visto de dois modos, como perda de dinheiro com gastos na hora de planejar um site e a perda de vendas que poderiam ser alcançadas através da publicidade.
+    No fim de todo o processo do desenvolvimento do software é necessário que ele atenda todas as necessidades dos clientes e que esse site chegue ao maior número de pessoas possíveis.
+
+
+    \section{Mitigação}
+        A mitigação de risco envolve analisar os riscos que cada área da empresa está submetida, e os administrar, auxiliando equipe  de  projeto  no  desenvolvimento  de  uma  estratégia  para  lidar  com  o  risco.
+        \subsection{Plano de mitigação}
+        
+        \begin{center}
+        \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4cm}|}
+        
+            \hline 
+                \multicolumn{1}{|c|}{\textbf{Área}} & 
+                \multicolumn{1}{c|}{\textbf{Atividade}} & 
+                \multicolumn{1}{c|}{\textbf{Risco}} & 
+                \multicolumn{1}{c|}{\textbf{mitigação}} \\ \hline
+            \endfirsthead
+
+            \multicolumn{4}{c}%
+                {{\bfseries \tablename\ \thetable{} -- continuação da última página}} \\
+                \hline 
+                \multicolumn{1}{|c|}{\textbf{Área}} & 
+                \multicolumn{1}{c|}{\textbf{Atividade}} & 
+                \multicolumn{1}{c|}{\textbf{Risco}} & 
+                \multicolumn{1}{c|}{\textbf{mitigação}} \\ \hline
+            \endhead
+
+            \hline 
+                \multicolumn{4}{|r|}{{Continua na próxima página}} \\ \hline
+            \endfoot
+
+            \hline \hline
+            \endlastfoot
+                
+            \hline
+                    
+            Gerência Geral & Definição da duração do planejamento & erro nos tempos de duração das atividades e na quantidade de recursos a ser alocada para cada atividade & Consultar pessoas envolvidas em organizações de vendas de ingressos, montar cenários pessimistas e otimistas\\ \hline
+            
+            \multirow{2}{*}{Finanças} & Definição do preço do ingresso & Ter prejuízo; oferecer um serviço com qualidade abaixo do esperado & Considerar erro no cálculo do orçamento; aumentar esforço em patrocínio/ apoio; trabalhar sempre com determinada porcentagem de folga no orçamento \\ \cline{2-4} 
+            
+            & Definição do orçamento & Errar cálculos e previsão do orçamento; não atualizar dados com possíveis reajustes ou imprevistos. &  Elaborar mais de um orçamento com diversos cenários e atentar à todos os cálculos para que eles esgotem os principais gastos.\\ \hline
+            
+            \multirow{2}{*}{Infraestrutura} & Definição da infraestrutura de redes & quedas repentinas; O site não suportar o número de clientes esperado & Garantir que site esteja hospedado em uma boa empresa de hospedagem de sites e com um bom suporte técnico. \\ \cline{2-4} 
+                     
+            & Definição da segurança de acesso ao site & Vazamento de dados, invasões e fraudes; Site vulnerável a ataques & Investir em segurança da informação ou utilizar uma empresa de hospedagem que ofereça um grau alto de segurança.\\ \hline
+            
+            Marketing & Divulgação do filme e das vendas de ingresso & Desalinhamento na divulgação; não atingir a quantidade de pessoas desejadas; errar canais de comunicação & Criar um plano piloto de divulgação e pedir feedback aos cinemas; consultar pessoas experientes em divulgação de filmes e vendas de ingresso ou mesmo uma consultoria especializada.\\ \hline
+            
+            \multirow{2}{*}{Serviços gerais}& Contato com empresas de cinema e franquias & número de reuniões insuficientes. & Contratar uma empresa experiente e com capacidade de suprir qualquer variação de última hora. \\ \cline{2-4}
+            
+            & Definição do sistema de informação & Perda de informações. & Garantir que o SI é de fácil acesso a todos integrantes da equipe e que toda informação pode ser centralizada nele.\\ \hline
+         
+            \caption{Plano de mitigação}
+            \label{table:Mitigacao}
+        \end{longtable}
+    \end{center}
+
+        
+        
+    \section{Monitoramento}
+            Monitoramento é uma atividade de rastreamento de projeto com três objetivos:
+             \begin{itemize}
+               \item Avaliar se riscos previstos de fato ocorrem;
+               \item Garantir que passos de aversão de risco definidos para um risco estão sendo aplicados;
+                \item Coletar informação que pode ser usada para análise de risco futura;
+             \end{itemize}
+        Problemas que ocorrem durante um projeto podem ser ligados a mais de um risco. Uma outra tarefa de monitoramento de riscos é alocação de origem.
+        
+        
+        \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|l|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{Riscos}} & 
+                    \multicolumn{1}{|c|}{\textbf{Origem}} \\ \hline
+                    Perda de dados & Banco de dados mal estruturado\\ \hline
+                    Layout ruim & Falta de qualidade profissional\\ \hline
+                    Usabilidade confusa & Falta de qualidade profissional \\ \hline
+                    Repostas erradas do Banco de dados & Erros de usuário ou em programação com erros. \\ \hline
+                    Métodos de pagamento & Erros de desenvolvimento, falta de qualidade do serviço, quando é terceirizado  \\ \hline
+                    Mecanismo de busca & Erros de desenvolvimento de qualidade\\ \hline
+                    Portabilidade & Falta de planejamento de requisitos \\ \hline
+                    Número de usuários maior que o planejado & Falta de planejamento de requisitos\\ \hline
+                    Ataque Hacker & Falhas de segurança \\ \hline
+                    Marketing ruim do site & Falta de qualidade profissional \\ \hline
+                    Risco financeiro & Falta de qualidade profissional em relação à administração \\ \hline
+                    Falta de atualização dos cinemas ou sessões & Falta de qualidade do setor administrativo \\ \hline
+                    Preços não competitivos no mercado ou com o próprio cinema localmente & Falta de qualidade profissional em relação à administração/financeiro \\ \hline
+                    Satisfação do cliente & Falta de qualidade profissional  \\ \hline
+                    Inutilização dos cinemas & Falta de qualidade profissional ou análise de mercado \\ \hline
+                \end{tabular}
+            }
+            \caption{Riscos e possíveis causas}
+            \label{table:riscos_e_causas}
+        \end{table}
+        \FloatBarrier
+        
+         \begin{table}[h]
+            \centering
+            \resizebox{\textwidth}{!}{
+                \begin{tabular}{|l|c|c|}
+                    \hline
+                    \multicolumn{1}{|c|}{\textbf{Riscos futuros}} \\ \hline
+                    Falta de suporte do sistema operacional. \\ \hline
+                    Surgimento de tecnologias de grandes empresas como google que façam a mesma tarefa\\ \hline
+                    Em um futuro um pouco distante, poderá haver a inexistência de cinemas, sendo substituídos por serviços como Netfix \\ \hline
+                    Incompatibilidade com Frameworks atuais em uso\\ \hline
+                \end{tabular}
+            }
+             \label{table:riscos_futuros}
+            \caption{Riscos Futuros}
+        \end{table}
+        \FloatBarrier
+        
+        Através do monitoramento de TI é possível resolver alguns problemas enfrentados pela maioria dos gestores de TI, como:
+        \begin{itemize}
+               \item Falhas nos sistemas que imobilizam recursos;
+               \item Dificuldade em medir indicadores de forma qualitativa;
+                \item Sistemas que estão lentos sem que o gestor tenha o conhecimento do motivo;
+                \item Usuários percebem os problemas antes da área de TI;
+                \item Ou ainda, a TI não está alinhada ao negócio da empresa.
+             \end{itemize}
+        
+
+    \section{Gerência de riscos}
+        Consiste em avaliar e controlar os riscos que afetam o projeto, processo ou produto de software. A melhor maneira de descobrir os riscos é definir, inicialmente, os objetivos e metas do projeto. Os riscos são gerenciados tendo em vista objetivos específicos, podendo afetar apenas o trabalho que falta para alcançá-los. As perguntas importantes são: qual o risco contido no plano? Qual o risco contido no trabalho ainda restante? A incerteza é inerente a todas as suposições do projeto.	 
+        
+        Um dos conceitos fundamentais do Gerenciamento de Riscos é a perda. É preciso que haja um potencial de perda para que haja risco. A perda pode ter origem em um resultado negativo ou em uma oportunidade perdida. O resultado negativo pode ser, por exemplo, uma quantidade de erros inaceitável no produto, ou um atraso na data de entrega do mesmo. A oportunidade perdida pode se referir, por exemplo, a lucros perdidos, pela incapacidade de levar o produto ao mercado antes da 2 concorrência. 
+        
+        Outro conceito fundamental a ser considerado é o tempo. Embora o tempo seja um recurso valioso, não é possível acumulá-lo. Uma vez perdido, não há como recuperá-lo. Conforme o tempo passa, as opções viáveis vão se reduzindo. A perda do tempo é reduzida através do Gerenciamento de Riscos.
+
+        A análise dos riscos é iniciada agrupando-se os riscos de mesma natureza, ou semelhantes. Devem ser determinados os fatores atuantes sobre os riscos, isto é, as variáveis que fazem a probabilidade de ocorrência ou o impacto (valor da perda) dos riscos flutuarem. Também devem ser determinadas as fontes de risco, ou seja, as respectivas causas, normalmente descobertas respondendo-se à pergunta “Por quê?” com relação a cada risco identificado. Em seguida, deve-se calcular a exposição referente a cada risco, definida como o produto da probabilidade de ocorrência do risco pelo respectivo impacto. A exposição é utilizada na priorização dos riscos. 
+
+        O planejamento dos riscos inclui a definição de cenários para os riscos mais importantes, a definição de alternativas de solução para esses cenários, a escolha das alternativas mais adequadas, o desenvolvimento de um Plano de Ação de Riscos, assim como o estabelecimento de limiares ou disparadores para a ação. O acompanhamento dos riscos envolve a monitoração dos cenários de riscos, a verificação de que os limiares foram ou não atingidos, bem como a análise das medidas e indicadores referentes aos riscos. 
+
+        A resolução dos riscos inclui a resposta aos eventos disparadores, a execução do Plano de Ação de Riscos, o acompanhamento da execução do plano e as eventuais correções de desvios.
+
+        Uma ferramenta gratuita para o Gerenciamento de Riscos em geral (não apenas de software) é o software TRIMS, desenvolvido pelo BMP Center of Excellence, uma organização patrocinada pela Marinha e pelo Departamento do Comércio Norte Americanos, bem como pela Universidade de Maryland.
+
+    \section{Conclusão}
+    
+        A partir das mudança decorrentes do cenário empresarial e econômico, as empresas necessitam de ferramentas que  demonstram a real situação socioeconômica da organização e do meio a qual está inserida, se basear em indicadores não garante o desemprenho esperado, qualquer simples erro de estratégia pode ocasionar mudanças bruscas e alterações nos balanços finais.
+        Muitas vezes o investimento em um software está relacionado à busca por melhorias em processos, nem sempre esse é um fator determinante para a empresa se manter no mercado, ela pode continuar usando seus métodos já conhecidos, porém talvez não consiga aumentar os seus resultados com o passar do tempo.
+        Mesmo com melhorias e investimentos, a elaboração e a execução de novos projetos podem apresentar riscos e incertezas, e esses fatores devem ser analisados. A ocorrência de riscos pode ameaçar o plano de projeto, tendo consequências podendo atrasar o cronograma e aumentar custos. Sendo assim, é preciso focar em planejamento.
+        Afim de diminuir os possíveis incidentes é necessário que os riscos sejam identificados, analisados e classificados. Eles podem ser divididos de acordo com seu tipo, garantindo a qualidade do que está sendo produzido.
+        A gestão de risco é uma ferramenta através da qual a empresa necessita, pois ela não retira a necessidade dos indicadores, mas se junta com eles e ao meio empresarial, por mais que os gestores tenham feito um bom plano de execução, sempre existirão riscos em um projeto de software.
+        
     \nocite{*}
     \bibliographystyle{IEEEtran}
     \bibliography{sbc-template}
